@@ -8,9 +8,9 @@ import { AddstudentComponent } from './addstudent/addstudent.component';
 import { AddfacaltyComponent } from './addfacalty/addfacalty.component';
 import { LoginComponent } from './login/login.component';
 import { RouterModule, Routes } from '@angular/router';
-const appRouts:Routes=[
+const appRoutes:Routes=[
   {
-    path:"/",component:AddfacaltyComponent
+    path:"",component:NavbarComponent
   },
   {
     path:"add",component:AddstudentComponent
@@ -31,7 +31,7 @@ const appRouts:Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRouts)
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
