@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { ViewstudentComponent } from './viewstudent/viewstudent.component';
+import { ViewfacaltyComponent } from './viewfacalty/viewfacalty.component';
 
 const appRoutes:Routes=[
   {
@@ -34,6 +35,7 @@ const appRoutes:Routes=[
     AddfacaltyComponent,
     LoginComponent,
     ViewstudentComponent,
+    ViewfacaltyComponent,
    
   ],
   imports: [
