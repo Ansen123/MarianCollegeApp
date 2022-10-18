@@ -1,14 +1,5 @@
 <app-navbar></app-navbar>
-<table class="table">
-    <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
-      </tr>
-    </thead>
-    <tbody>
+
         <div class="container mt-3">
             <div class="row">
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -35,7 +26,17 @@
         
                             <tr *ngFor = "let i of data" >
                                 <td>{{i.name}}</td>
-                              
+                                <td>{{i.rollnumber}}</td>
+                                <td>{{i.adnumber}}</td>
+                                <td>{{i.college}}</td>
+                                <td>{{i.department}}</td>
+                                <td>{{i.bloodgroup}}</td>
+                                <td>{{i.dob}}</td>
+                                <td>{{i.parentname}}</td>
+                                <td>{{i.email}}</td>
+                                <td>{{i.gardian}}</td>
+                                <td>{{i.addrees}}</td>
+
                             </tr>
                             
                         </tbody>
@@ -46,12 +47,6 @@
                 </div>
             </div>
         </div>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
+      
      
-    </tbody>
-  </table>
+    

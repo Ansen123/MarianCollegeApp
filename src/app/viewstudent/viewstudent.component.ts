@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ViewstudentComponent implements OnInit {
 
   constructor() { }
-data= [{"name":"Ansen","rollnumber":"17","adnumber":"1225","college":"marian","department":"ec","bloodgroup":"A+ve","bob":"2022"}]
+data= [{"name":"Ansen","rollnumber":"17","adnumber":"1225","college":"marian","department":"ec","bloodgroup":"A+ve","dob":"2022","parentname":"Francis","email":"Ansen@gmal.com","gardian":"francis","addrees":"pazhanilathu"}]
   ngOnInit(): void {
   }
 

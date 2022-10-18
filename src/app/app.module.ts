@@ -21,6 +21,9 @@ const appRoutes:Routes=[
   },
   {
     path:"addFacalty",component:AddfacaltyComponent
+  },
+  {
+    path:"viewstudent",component:ViewstudentComponent
   }
 ]
 @NgModule({
