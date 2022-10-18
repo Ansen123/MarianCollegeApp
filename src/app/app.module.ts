@@ -7,7 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AddstudentComponent } from './addstudent/addstudent.component';
 import { AddfacaltyComponent } from './addfacalty/addfacalty.component';
 import { LoginComponent } from './login/login.component';
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 const appRouts:Routes=[
   {
     path:"/",component:LoginComponent
@@ -25,11 +25,13 @@ const appRouts:Routes=[
     NavbarComponent,
     AddstudentComponent,
     AddfacaltyComponent,
-    LoginComponent
+    LoginComponent,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRouts)
   ],
   providers: [],
   bootstrap: [AppComponent]
