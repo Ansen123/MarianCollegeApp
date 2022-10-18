@@ -11,6 +11,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { ViewstudentComponent } from './viewstudent/viewstudent.component';
 import { ViewfacaltyComponent } from './viewfacalty/viewfacalty.component';
+import { HomeComponent } from './home/home.component';
 
 const appRoutes:Routes=[
   {
@@ -28,6 +29,9 @@ const appRoutes:Routes=[
   },
   {
     path:"viewfacalty",component:ViewfacaltyComponent
+  },
+  {
+    path:"home",component:HomeComponent
   }
 ]
 @NgModule({
@@ -39,6 +43,7 @@ const appRoutes:Routes=[
     LoginComponent,
     ViewstudentComponent,
     ViewfacaltyComponent,
+    HomeComponent,
    
   ],
   imports: [
