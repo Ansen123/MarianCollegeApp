@@ -6,23 +6,23 @@
             <div class="row g-3">
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="">Student Name</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control"  name="name"  [(ngModel)]="name">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="">Roll Number</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control"  name="rollnumber"  [(ngModel)]="rollnumber">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="">Admission Number</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" name="adnumber"  [(ngModel)]="adnumber">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="">College Name</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" name="cname"  [(ngModel)]="cname">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="">Department Name</label>
-                    <select name="" id="" class="form-control">
+                    <select name="" id="" class="form-control"  name="dname"  [(ngModel)]="dname">
                         <option value="" class="form-control">Select</option>
                         <option value="" class="form-control">CS</option>
                         <option value="" class="form-control">EEE</option>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="">Blood Group</label>
-                    <select name="" id="" class="form-control">
+                    <select name="" id="" class="form-control"  name="blood"  [(ngModel)]="blood">
                         <option value="" class="form-control">Select</option>
                         <option value="" class="form-control">A+ve</option>
                         <option value="" class="form-control">B+Ve</option>
@@ -44,26 +44,26 @@
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="">DOB</label>
-                    <input type="date" name="" id="" class="form-control">
+                    <input type="date" name="" id="" class="form-control" name="dob"  [(ngModel)]="dob">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="">Parent Name</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control"  name="pname"  [(ngModel)]="pname">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="">Parent E-mail</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control"  name="email"  [(ngModel)]="email">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="">Gardian Name</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control"  name="gname"  [(ngModel)]="gname">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="">Gardian Address</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" name="gaddress"  [(ngModel)]="gaddress">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <Button class="btn btn-primary">Submit</Button>
+                    <button class="btn btn-primary" (click)="readvalues()">Submit</button>
                 </div>
             </div>
 
