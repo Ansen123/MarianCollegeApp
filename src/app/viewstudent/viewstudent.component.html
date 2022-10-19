@@ -1,0 +1,52 @@
+<app-navbar></app-navbar>
+
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                  
+        
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Roll Number</th>
+                                <th scope="col">Admission Number</th>
+                                <th scope="col">College Name</th>
+                                <th scope="col">DepartMent name</th>
+                                <th scope="col">Blood Group</th>
+                                <th scope="col">Dob</th>
+                                <th scope="col">Parent Name</th>
+                                <th scope="col">Parent E-mail</th>
+                                <th scope="col">Gardian name</th>
+                                <th scope="col">Gardian Address</th>
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+        
+                            <tr *ngFor = "let i of data" >
+                                <td>{{i.name}}</td>
+                                <td>{{i.rollnumber}}</td>
+                                <td>{{i.adnumber}}</td>
+                                <td>{{i.college}}</td>
+                                <td>{{i.department}}</td>
+                                <td>{{i.bloodgroup}}</td>
+                                <td>{{i.dob}}</td>
+                                <td>{{i.parentname}}</td>
+                                <td>{{i.email}}</td>
+                                <td>{{i.gardian}}</td>
+                                <td>{{i.addrees}}</td>
+
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+        
+                  
+                  
+                </div>
+            </div>
+        </div>
+      
+     
+    

@@ -1,0 +1,49 @@
+<app-navbar></app-navbar>
+
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                  
+        
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">facalty Name</th>
+                                <th scope="col">Department</th>
+                                <th scope="col">Designation</th>
+                                <th scope="col">Dob </th>
+                                <th scope="col">Education Qualification</th>
+                                <th scope="col">Address</th>
+                                <th scope="col">Mobile</th>
+                                <th scope="col">Joing Date</th>
+                                
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+        
+                            <tr *ngFor = "let i of data" >
+                                <td>{{i.name}}</td>
+                                <td>{{i.department}}</td>
+                                <td>{{i.Designation}}</td>
+                                <td>{{i.dob}}</td>
+                                <td>{{i.eduQ}}</td>
+                                <td>{{i.address}}</td>
+                                <td>{{i.mob}}</td>
+                                <td>{{i.joing}}</td>
+                               
+                              
+
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+        
+                  
+                  
+                </div>
+            </div>
+        </div>
+      
+     
+    
